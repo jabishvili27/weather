@@ -1,0 +1,136 @@
+*:focus {
+  outline: none;
+}
+body{
+  margin:0;
+  padding: 0;
+  width:100%;
+  height:100vh;
+    background : url(./img/backgr.jpg) center ;
+    background-size: cover;
+    color:white;
+    font-family: cursive;
+}
+#search{
+   height:40px;
+   width:50%;
+   text-align: center; 
+   border:none;
+   font-size: 30px;
+   border-top-left-radius: 25px;
+   border-bottom-left-radius: 25px;
+   background:rgba(0,0,0,0.5) ;
+   color:white;
+}
+#search::-webkit-input-placeholder{
+    color: white;
+    opacity: 1;
+}
+#search::-moz-placeholder{
+    color:white;
+    opacity: 1;
+}
+.button{
+    margin-left: -1px;
+    height:42px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border:none;
+}
+.icon{
+    height:36px;
+}
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+.button:hover{
+background-color: gray;
+}
+.button:active{
+    background-color: rgb(194, 193, 193);
+}
+.container{
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+.error{
+  color: #F00;
+}.err{
+    display: flex;
+    justify-content: center;
+}
+.ico{
+    width:70px;
+}
+
+.city{
+    margin-top: 20px;
+    width:65%;
+    height:180px;
+    background:rgba(0,0,0,0.5) ;
+    background-size:cover;
+    border-radius: 20px;
+    display: flex;
+    flex-direction:column ;
+}
+.title{
+    margin-left: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255,0.7);
+    color:black;
+    height:30px;
+    width:90%;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.information{
+    margin-top:20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.humadity,
+.min,
+.max{
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    text-align:center;
+}
+.temp{
+    font-size: 60px;
+}
+.description{
+    margin-left: -20px;
+    display: flex;
+    align-items: center;
+    height:30px;
+    font-size: 25px;
+}
+.max_min{
+    display: flex;
+    justify-content: space-around;
+     flex-direction: column;
+}
+.right,
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.main{
+    min-height:50vh;
+    max-height: fit-content;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
